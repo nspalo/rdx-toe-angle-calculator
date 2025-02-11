@@ -2,11 +2,16 @@
 Reve D RDX - Toe Angle Calculator
 > A simple program written in PHP to compute the rear toe angle for RDX
 
-#### Pre-requisite
-- MUST HAVE PHP 8.3 and above installed.
+### Pre-requisite (MUST HAVE)
+- Composer (see: https://getcomposer.org/download/)
+- PHP 8.3 and above (see: https://www.php.net/downloads.php)
+
+### How to set up:
+- Install composer and PHP (Non-Devs might need to watch YT Tuts)
+- Open cmd / terminal then run composer install
 
 ### How to use:
-- Run the program via command line
+- Open cmd / terminal then run the program
     - `$ php rdx-toe.php <susBlockRF> <bushingRF> <susBlockRR> <bushingRR>`
 
 ### Sample usage
@@ -31,5 +36,4 @@ Reve D RDX
 ----------------------------
  Difference: 3.6
  Toe Angle: 2.4
-
 ```
