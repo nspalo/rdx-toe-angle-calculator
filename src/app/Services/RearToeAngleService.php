@@ -118,44 +118,9 @@ class RearToeAngleService
         echo 'Reve D RDX' . PHP_EOL;
         echo '----------------------------' . PHP_EOL;
         echo ' Rear Toe Angle Calculator' . PHP_EOL;
-//        echo '----------------------------' . PHP_EOL;
-//        echo ' RF Suspension Block' . PHP_EOL;
-//        echo ' - Block #: ' . $this->getSusBlockRF() . PHP_EOL;
-//        echo ' - Bushing: ' . $this->getBushingRF() . PHP_EOL;
-//        echo ' - Length : ' . number_format($this->getSusBlockLengthRF(), 1) . PHP_EOL;
-//        echo '----------------------------' . PHP_EOL;
-//        echo ' RR Suspension Block' . PHP_EOL;
-//        echo ' - Block #: ' . $this->getSusBlockRR() . PHP_EOL;
-//        echo ' - Bushing: ' . $this->getBushingRR() . PHP_EOL;
-//        echo ' - Length : ' . number_format($this->getSusBlockLengthRR(), 1) . PHP_EOL;
-//        echo '----------------------------' . PHP_EOL;
-//        echo ' Difference: ' . number_format($this->getLengthDifference(), 1) . PHP_EOL;
-//        echo ' Toe Angle: ' . number_format($this->getToeAngle(), 1) . '°' . PHP_EOL;
-//        echo '----------------------------' . PHP_EOL;
 
-//        $this->generateDisplayData($this->toArray());
         $this->generateCliDisplayData($this->toArray());
     }
-
-
-//    private function generateDisplayData(array $data, ?string $padding = null): void
-//    {
-//        foreach ($data as $label => $value) {
-//            $label = str_replace('_', ' ', $label);
-//
-//            if (is_array($value) === true || $padding === null) {
-//                echo '----------------------------' . PHP_EOL;
-//            }
-//
-//            if (is_array($value)) {
-//                echo sprintf('%s%s: ', $padding, $label) . PHP_EOL;
-//                $this->generateDisplayData($value, ' - ');
-//            } else {
-//                $padding = $padding ?? ' ';
-//                echo sprintf('%s%s: %s', $padding, $label, $value) . PHP_EOL;
-//            }
-//        }
-//    }
 
     private function generateCliDisplayData(array $data, ?string $padding = null): void
     {
